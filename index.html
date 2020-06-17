@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREEN FOODS</title>
+    <link rel="icon" href="src/icons/icon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="navbar">
+            <a href="#" class="logo">Good<span>Foods</span></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span class="menuIcon" onClick="menuToggle();"></span>
+        </header>
+        <div class="content">
+            <div class="bannerText" id="slideshowText">
+                <div class="active">
+                    <h2>EAT Healthy<br>Stay Healthy</h2>
+                    <p>Ut cupidatat sit in cupidatat dolore ullamco in et est esse consectetur deserunt est magna dolor dolor ex qui sit magna ut reprehenderit pariatur quis exercitation nulla in enim quis excepteur mollit occaecat ullamco ut consectetur sed sint exercitation.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <h2>Eat Your<br>Veggies</h2>
+                    <p>Ut cupidatat sit in cupidatat dolore ullamco in et est esse consectetur deserunt est magna dolor dolor ex qui sit magna ut reprehenderit pariatur quis exercitation nulla in enim quis excepteur mollit occaecat ullamco ut consectetur sed sint exercitation.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <h2>Good Food<br>Good Mood</h2>
+                    <p>Ut cupidatat sit in cupidatat dolore ullamco in et est esse consectetur deserunt est magna dolor dolor ex qui sit magna ut reprehenderit pariatur quis exercitation nulla in enim quis excepteur mollit occaecat ullamco ut consectetur sed sint exercitation.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="bannerImg" id="slideshow">
+                <img src="src/1.jpg" class="active">
+                <img src="src/2.jpg">
+                <img src="src/3.jpg">
+            </div>
+        </div>
+        <div class="icons">
+            <ul class="sci">
+                <li><a href="#"><img src="src/icons/facebook.png"></a></li>
+                <li><a href="#"><img src="src/icons/twitter.png"></a></li>
+                <li><a href="#"><img src="src/icons/instagram.png"></a></li>
+            </ul>
+            <ul class="controls">
+                <li><a href="#"><img src="src/icons/arrowL.png" onClick="prevSlide();prevSlideText();"></a></li>
+                <li><a href="#"><img src="src/icons/arrowR.png" onClick="nextSlide();nextSlideText();"></a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
